@@ -85,9 +85,6 @@ void player_turn()
         cout<<"Box already used, Please choose another one\n";
         player_turn();
     }
-    show_board();
-    //cout <<k; //to check draw for now
-    //cout << draw;//TO check draw for now
 }
 bool gameover()
 {
